@@ -7,11 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21db603-0a7f-4b50-a967-c38bc1aa2e37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring_mvc_demo/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring_mvc_demo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring_mvc_demo/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring_mvc_demo/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring_mvc_demo/CustomerController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -238,6 +237,8 @@
       <workItem from="1572280998081" duration="93000" />
       <workItem from="1572730819253" duration="1211000" />
       <workItem from="1572733233966" duration="1304000" />
+      <workItem from="1572894619933" duration="86000" />
+      <workItem from="1572901158752" duration="4019000" />
     </task>
     <servers />
   </component>
@@ -249,7 +250,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
