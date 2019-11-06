@@ -1,5 +1,7 @@
 package spring_mvc_demo;
 
+import validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer {
@@ -16,6 +18,17 @@ public class Customer {
     @NotNull(message = "is required")
     @Size(min = 1, message = "is required")
     private String lastName;
+
+    @CourseCode(value = "BGA", message = "must be BGA")
+    private String courseCode;
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
+    }
 
     public Integer getFreePasses() {
         return freePasses;

@@ -7,15 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21db603-0a7f-4b50-a967-c38bc1aa2e37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/validation/CourseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/validation/CourseCodeConstraintValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/classes/spring_mvc_demo/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/classes/spring_mvc_demo/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/view/customer-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/spring_mvc_demo_war_exploded/WEB-INF/view/customer-form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/spring-mvc-demo/spring_mvc_demo/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring-mvc-demo/spring_mvc_demo/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spring_mvc_demo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring_mvc_demo/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring_mvc_demo/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring_mvc_demo/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-confirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/customer-form.jsp" afterDir="false" />
     </list>
@@ -29,8 +29,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,6 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -246,7 +248,7 @@
       <workItem from="1572733233966" duration="1304000" />
       <workItem from="1572894619933" duration="86000" />
       <workItem from="1572901158752" duration="8239000" />
-      <workItem from="1572992096785" duration="1346000" />
+      <workItem from="1572992096785" duration="6348000" />
     </task>
     <servers />
   </component>
