@@ -1,0 +1,1 @@
+This is a demo project which showcases the bare basic functionalities of hibernate with MySQL Workbench.
