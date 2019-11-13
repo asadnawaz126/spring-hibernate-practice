@@ -1,0 +1,1 @@
+This is a demo project which showcases the basic functionalities of Spring MVC as a standalone framework
