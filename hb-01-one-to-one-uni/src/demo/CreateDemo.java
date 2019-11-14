@@ -1,37 +1,41 @@
 package demo;
 
-import entitiy.Student;
+import entity.Instructor;
+import entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class CreateStudentDemo {
+public class CreateDemo {
 
     public static void main(String[] args) {
         SessionFactory sessionFactory =  new Configuration()
                                             .configure("hibernate.cfg.xml")
-                                            .addAnnotatedClass(Student.class)
+                                            .addAnnotatedClass(Instructor.class)
+                                            .addAnnotatedClass(InstructorDetail.class)
                                             .buildSessionFactory();
 
         Session session = sessionFactory.getCurrentSession();
 
         try {
 
-            System.out.println("Creating student object...");
-            Student tempStudent = new Student("Asad","Nawaz", "asadnawaz@gmail.com");
-            Student tempStudent2 = new Student("Fahad","Nawaz", "fahadnawaz@gmail.com");
+            Instructor instructor = new Instructor("Fahad", "Saleem", "fahadbinsaleem@gmail.com");
+
+            InstructorDetail instructorDetail = new InstructorDetail("youtube.com/fahadsaleem", "Fortnite");
+
+            instructor.setInstructorDetail(instructorDetail);
+
 
             session.beginTransaction();
 
-            System.out.println("Saving student...");
-
-            session.save(tempStudent);
-            session.save(tempStudent2);
+            //will save instructordetail as well because of cascade.ALL property
+            System.out.println("Saving instructor: "+ instructor);
+            session.save(instructor);
 
 
             session.getTransaction().commit();
 
-            System.out.println("Object saved");
+            System.out.println("Done!");
 
 
         }
