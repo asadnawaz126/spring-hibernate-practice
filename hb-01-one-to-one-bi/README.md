@@ -1,0 +1,1 @@
+This is a demo project which showcases One-to-One Bi Drectional Mapping functionality of Hibernate including
