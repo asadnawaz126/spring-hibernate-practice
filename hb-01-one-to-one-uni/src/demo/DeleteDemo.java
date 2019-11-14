@@ -1,12 +1,12 @@
 package demo;
 
-import entitiy.Instructor;
-import entitiy.InstructorDetail;
+import entity.Instructor;
+import entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class CreateDemo {
+public class DeleteDemo {
 
     public static void main(String[] args) {
         SessionFactory sessionFactory =  new Configuration()
@@ -19,18 +19,21 @@ public class CreateDemo {
 
         try {
 
-            Instructor instructor = new Instructor("Fahad", "Saleem", "fahadbinsaleem@gmail.com");
-
-            InstructorDetail instructorDetail = new InstructorDetail("youtube.com/fahadsaleem", "Fortnite");
-
-            instructor.setInstructorDetail(instructorDetail);
-
-
             session.beginTransaction();
 
-            //will save instructordetail as well because of cascade.ALL property
-            System.out.println("Saving instructor: "+ instructor);
-            session.save(instructor);
+
+            int id =1;
+
+            Instructor instructor = session.get(Instructor.class, id);
+
+            System.out.println("Instructor found: "+ instructor);
+
+            if(instructor!=null){
+                System.out.println("Deleting...");
+
+                //because of cascade.ALL, instructorDetail entry linked to this instructor will also be deleted
+                session.delete(instructor);
+            }
 
 
             session.getTransaction().commit();
