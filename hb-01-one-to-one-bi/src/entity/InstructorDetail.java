@@ -7,6 +7,7 @@ import javax.persistence.*;
 @Table(name = "instructor_detail")
 public class InstructorDetail {
 
+    @OneToOne(mappedBy = "instructorDetail", cascade = CascadeType.ALL)
     private Instructor instructor;
 
     @Id
@@ -52,10 +53,19 @@ public class InstructorDetail {
         this.hobby = hobby;
     }
 
+    public Instructor getInstructor() {
+        return instructor;
+    }
+
+    public void setInstructor(Instructor instructor) {
+        this.instructor = instructor;
+    }
+
     @Override
     public String toString() {
         return "InstructorDetail{" +
-                "id=" + id +
+                "instructor=" + instructor +
+                ", id=" + id +
                 ", youtubeChannel='" + youtubeChannel + '\'' +
                 ", hobby='" + hobby + '\'' +
                 '}';
